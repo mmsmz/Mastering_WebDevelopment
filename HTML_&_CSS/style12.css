@@ -1,0 +1,46 @@
+/* universal selecter *  */
+* {
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background: silver ;
+    width: 1200px;
+    /* height: 650px ; */
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+    #header{
+        background: brown ;
+        width: 1200px;
+        height: 100px;
+    }
+    #nav{
+        background: orange;
+        width: 1200px;
+        height: 50px;
+    }
+    #middle{
+        background: grey;
+        width: 1200px;
+        height: 400px;
+        /* padding: 10px 0; */
+    }
+        #left{
+            background: lightgreen;
+            width: 800px;
+            height: 400px;
+            float: left;
+        }
+        #right{
+            background: lightsalmon;
+            width: 400px;
+            height: 400px;
+            float: left;
+        }
+    #footer{
+        background: brown ;
+        width: 1200px;
+        height: 80px;
+    }
