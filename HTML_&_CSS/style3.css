@@ -1,0 +1,37 @@
+p{
+    color: chocolate;
+    background-color: orange;
+}
+
+
+h1{
+    color: chocolate;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*using id */
+#sec_para{
+    color:blueviolet;
+    text-decoration: underline;
+}
+/*using class */
+.main-class{
+    color: darkgray;
+    font-size: 25px;
+}
+
+/* a states and this is the order*/
+a:link{ 
+    color: red;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: blue;
+}
