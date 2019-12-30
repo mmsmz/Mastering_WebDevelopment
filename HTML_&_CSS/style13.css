@@ -1,0 +1,114 @@
+/* universal selecter *  */
+* {
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    #header{
+        background: brown ;
+        width: 1180px;
+        padding: 20px 10px;
+        color: white;
+    }
+    #nav{
+        background: orange;
+        width: 1200px;;
+    }
+        #nav ul{
+            list-style: none;
+        }
+        #nav ul li{
+                float: left;
+                width: 240px;
+                padding: 20px 0;
+                text-align: center;
+        }
+             #nav ul li:hover{
+                    background: lightgoldenrodyellow;
+                    width: 240px;
+             }
+        #nav a {
+            color: black;
+        }
+    #middle{}
+        #left{
+            width: 800px;
+            height: 500px;
+            float: left;
+        }
+            .post{
+                background-color: silver;
+                margin: 10px;
+            }
+                .title{
+                    background: brown;
+                    padding: 10px 15px;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                }   
+                .description{
+                    background: #f1f1f1;
+                    padding: 20px;
+                }
+
+        #right{
+            width: 360px;
+            height: 500px;
+            float: left;
+            padding: 5px;
+        }
+            #right h2{
+                text-align: center;
+                
+            }
+                #latest_post_group{
+                    margin: 10px 0;
+                }  
+                    .latest_post{
+                        background: brown;
+                        color: white;
+                        padding: 10px 0px;
+                        text-align: center;
+                        margin: 10px 0;
+                    }
+
+                #news_letter{
+                    margin: 10px 20px;
+                }
+            
+                    .news_letter_head{
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    input[type="text"]{
+                        width: 320px;    
+                        height: 30px;
+                    }
+                    input[type="submit"]{
+                        width: 322px;    
+                        background: orange;
+                        color: white;
+                        padding: 15px;
+                        border: none;
+                        font-size: 15px;
+                        margin: 10px 0;
+                    }
+                    input[type="submit"]:hover{
+                        background: brown;
+                        color: black;
+                    }
+
+
+    #footer{
+        background: brown ;
+        width: 1200px;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
