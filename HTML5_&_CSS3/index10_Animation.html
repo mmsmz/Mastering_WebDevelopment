@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-color: orange;
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 10px;
+            /* connect the keyframe anim here!! */
+            /* animation-name: anim1;
+            animation-duration: 5s; */
+            /* we can write the above code in one line */
+            animation: anim1 5s; 
+        }
+        #div2{
+            background-color: orange;
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 10px;
+            animation: anim2 5s; 
+            animation-iteration-count: 3; 
+            /* the above iteration will count only 3 times */
+            animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        #div3{
+            background-color: orange;
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 10px;
+            animation: anim3 5s; 
+            animation-iteration-count: infinite;
+        }
+
+
+        /* KeyFrames  */
+        @keyframes anim1 {
+            from {background: orange;}
+            to {background: red;}
+        }
+
+        @keyframes anim2 {
+            0% {background: gray; border-radius: 0;}
+            25%  {background: yellow; border-radius: 100px;}
+            50%  {background: blue;border-radius: 50px;}
+            100%  {background: orange;border-radius: 0px;}   
+        }
+        @keyframes anim3 {
+            0% {background: gray; width:200px; }
+            20%  {background: yellow; width:300px; }
+            40%  {background: blue; width:400px; }
+            70%  {background: orange; width:300px; }
+            100%  {background: orange; width:200px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+</body>
+</html>
