@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var computer = 'yes',
+            laptop ='yes',
+            model = '2016',
+            ram = '8GB',
+            hdd = '1TB';
+
+            if(computer == 'yes'){
+                  if(laptop == 'yes'){
+                     if(model == '2016'){
+                           if(ram== '8GB'){
+                                if(hdd == '1TB'){
+                                    document.write('YES, We have all items are available in the shop');
+                                }
+                                else {
+                                    document.write('sorry we dont have required HDD');         
+                                }
+                           }
+                           else {
+                            document.write('sorry we dont ahve required ram'); 
+                           }
+                     }
+                     else {
+                        document.write('sorry we dont have the current model'); 
+                     }
+                  } 
+                  else {
+                    document.write('sorry we dont have laptops');
+                  }
+            }
+            else{
+                document.write('sorry we dont have computers');
+            }
+
+    </script>
+</body>
+</html>
